@@ -29,13 +29,13 @@ export default function FindJobsPage() {
     <ExploreDataContainer
       formFilter={formFilter}
       onSubmitFilter={onSubmitFormFilter}
-      filterForms={filters}
+      filterForms={FILTER_FORMS}
       title="dream job"
       subtitle="Find your next career at companies like HubSpot, Nike,
 			and Dropbox"
       loading={false}
       type="job"
-      data={jobs}
+      data={[]}
     />
   );
 }
